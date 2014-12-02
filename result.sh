@@ -1,5 +1,5 @@
 #!/bin/sh
-for i in $(find ./Shell/ -name "*f*");
+for i in $(find ./ -name "*f*");
   	do countLine=$(cat $i | wc -l) ; 
 		echo $countLine ; 
 		if [ $countLine -gt 10 ] ; 
